@@ -1,4 +1,4 @@
 <div class="embed-clicker">
-	<h2><% if $text %>$text<% else %>Click the button!<% end_if %></h2>
+	<h2><% if $text %>$text.RAW<% else %>Click the button!<% end_if %></h2>
 	<button control-clicker data-clicks="<% if clicks %>$clicks<% else %>0<% end_if %>">0 clicks</button>
 </div>
