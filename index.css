@@ -1,0 +1,7 @@
+data-clicker {
+	transition: transform .1s;
+}
+
+data-clicker:active {
+	transform: scale(1.1);
+}
